@@ -509,7 +509,7 @@ const FFPopupLayout FFPopupLayout_Center = { FFPopupHorizontalLayout_Center, FFP
 }
 
 - (void)dismiss:(BOOL)animated {
-    if (_isShowing && !_isBeingDismissed) {
+    if (!_isBeingDismissed) {
         _isShowing = NO;
         _isBeingShown = NO;
         _isBeingDismissed = YES;
