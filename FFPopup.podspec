@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   A lightweight library for presenting custom views as a popup in iOS.
                         DESC
 
-  s.homepage            = "https://github.com/JonyFang/FFPopup"
+  s.homepage            = "https://github.com/MangGuoYun/FFPopup"
   s.license             = { :type => "MIT", :file => "LICENSE" }
   s.author              = { "JonyFang" => "jony.chunfang@gmail.com" }
   s.social_media_url    = "https://www.jonyfang.com"
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
   s.source_files        = "FFPopup/Classes/*.{h,m}"
-  s.source              = { :git => "https://github.com/JonyFang/FFPopup.git", :tag => s.version.to_s }
+  s.source              = { :git => "https://github.com/MangGuoYun/FFPopup.git", :tag => s.version.to_s }
 
 end
